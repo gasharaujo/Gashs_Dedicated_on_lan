@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/gasharaujo/Gashs_Dedicated_on_lan/issues"
+
+[[mods]]
+modId="gashs_dedicated_on_lan"
+version="${mod_version}"
+displayName="Gash's Dedicated on Lan"
+displayURL="https://github.com/gasharaujo/Gashs_Dedicated_on_lan"
+authors="Gasharaujo"
+description='''Start a local dedicated server from your single-player world and reconnect while it runs.'''
+
+[[dependencies.gashs_dedicated_on_lan]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.gashs_dedicated_on_lan]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"

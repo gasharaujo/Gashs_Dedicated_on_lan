@@ -1,0 +1,14 @@
+{
+  "screen.gashs_dedicated_on_lan.start": "Dedicated and connect",
+  "screen.gashs_dedicated_on_lan.connect": "Connect to Dedicated",
+  "screen.gashs_dedicated_on_lan.unavailable": "Open or upgrade this world normally before starting a dedicated server.",
+  "screen.gashs_dedicated_on_lan.eula.title": "Minecraft Server EULA",
+  "screen.gashs_dedicated_on_lan.eula.body": "Running the Minecraft server requires accepting the Minecraft EULA at https://www.minecraft.net/eula.",
+  "screen.gashs_dedicated_on_lan.eula.accept": "I agree",
+  "screen.gashs_dedicated_on_lan.cancel": "Cancel",
+  "screen.gashs_dedicated_on_lan.progress": "Opening a dedicated server",
+  "screen.gashs_dedicated_on_lan.preparing": "Preparing the world and server mods",
+  "screen.gashs_dedicated_on_lan.installing": "Installing the dedicated loader",
+  "screen.gashs_dedicated_on_lan.starting": "Waiting for the dedicated server",
+  "screen.gashs_dedicated_on_lan.error": "Could not open the dedicated server"
+}

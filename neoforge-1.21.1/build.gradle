@@ -1,0 +1,11 @@
+plugins {
+    id 'java'
+    id 'net.neoforged.moddev' version '2.0.143'
+}
+
+apply from: '../shared.gradle'
+
+neoForge {
+    version = loader_version
+}
+sourceSets.main.java.srcDir('../legacy/src/main/java')

@@ -1,0 +1,14 @@
+{
+  "screen.gashs_dedicated_on_lan.start": "Dedicated and connect",
+  "screen.gashs_dedicated_on_lan.connect": "Conectar ao dedicado",
+  "screen.gashs_dedicated_on_lan.unavailable": "Abra ou atualize o mundo normalmente antes de iniciar um servidor dedicado.",
+  "screen.gashs_dedicated_on_lan.eula.title": "EULA do servidor Minecraft",
+  "screen.gashs_dedicated_on_lan.eula.body": "Para executar o servidor do Minecraft, aceite a EULA em https://www.minecraft.net/eula.",
+  "screen.gashs_dedicated_on_lan.eula.accept": "Aceito",
+  "screen.gashs_dedicated_on_lan.cancel": "Cancelar",
+  "screen.gashs_dedicated_on_lan.progress": "Abrindo um servidor dedicado",
+  "screen.gashs_dedicated_on_lan.preparing": "Preparando o mundo e os mods do servidor",
+  "screen.gashs_dedicated_on_lan.installing": "Instalando o loader dedicado",
+  "screen.gashs_dedicated_on_lan.starting": "Aguardando o servidor dedicado",
+  "screen.gashs_dedicated_on_lan.error": "Não foi possível abrir o servidor dedicado"
+}

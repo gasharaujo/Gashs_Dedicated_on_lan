@@ -1,0 +1,19 @@
+def sharedProperties = new Properties()
+rootProject.file('../version.properties').withInputStream { sharedProperties.load(it) }
+version = sharedProperties.getProperty('mod_version')
+group = 'net.gasharaujo.dedicatedlan'
+base.archivesName = "gashs_dedicated_on_lan-${project.name}"
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(java_version.toInteger())
+sourceSets.main.java.srcDir('../common/src/main/java')
+sourceSets.main.resources.srcDir('../common/src/main/resources')
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = java_version.toInteger()
+}
+
+processResources {
+    inputs.property('mod_version', project.version)
+    filesMatching('META-INF/*.toml') { expand(mod_version: project.version) }
+}

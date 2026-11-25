@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+apply from: '../shared.gradle'
+
+minecraft {
+    mappings channel: 'official', version: minecraft_version
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+}
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${loader_version}"
+}
+jar.finalizedBy('reobfJar')
+sourceSets.main.java.srcDir('../legacy/src/main/java')
